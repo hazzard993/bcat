@@ -89,6 +89,7 @@ class Bcat
       "<!-- bcat was here -->",
       inject.to_s,
       "<link href=\"data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=\" rel=\"icon\" type=\"image/x-icon\" />",
+      "<style>:root { background: black; color: #ccc; }</style>",
       "<title>#{self[:title] || 'bcat'}</title>",
       "</head>"
     ].join("\n")
